@@ -1,0 +1,206 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete {
+    color: red;
+    text-decoration: none;
+}
+/* Container for the messages, unique class names to avoid conflicts */
+.custom-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 50px auto; /* centers vertically with margin */
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.custom-heading {
+  color: #004d40;
+  margin-bottom: 30px;
+}
+
+/* Wrapper for all messages */
+.custom-messages-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Each message card */
+.custom-message-card {
+  background: #e0f7fa;
+  border-left: 5px solid #00796b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  position: relative;
+  text-align: left;
+}
+
+.custom-message-card p {
+  margin: 5px 0;
+}
+
+/* Delete button */
+.custom-delete-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #d32f2f;
+  color: #fff;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.custom-delete-btn:hover {
+  background: #b71c1c;
+}
+
+/* Back link */
+.custom-back-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #00796b;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.custom-back-link:hover {
+  text-decoration: underline;
+}
+
+/* No messages text */
+.custom-no-messages {
+  color: #666;
+  font-style: italic;
+}
+/* Container centers everything */
+.thankyou-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f6f9;
+  margin: 0;
+}
+
+/* Card with shadow */
+.thankyou-card {
+  background: #e0f7fa;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+
+/* Heading */
+.thankyou-card h2 {
+  color: #004d40;
+  margin-bottom: 25px;
+}
+
+/* Links */
+.thankyou-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.thankyou-links a {
+  text-decoration: none;
+  background: #00796b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.thankyou-links a:hover {
+  background: #004d40;
+}
